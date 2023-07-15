@@ -8,7 +8,7 @@ body{
 }
 #weather-widget{
   margin: 15% auto;
-  height: 180px;
+  height: 250px;
   width: 80%;
   justify-content: center;
   align-items: center;
@@ -18,5 +18,51 @@ body{
   border: 1px solid rgb(38, 123, 16);
 }
 #city-name{
+  font-size: 55px;
+  margin: 5%;
+  margin-left: 10%;
+
+}
+#temperature{
+  font-size: 65px;
+  margin-left: 85%;
+  margin-top: -10%;
+}
+
+#description{
+   margin: auto;
+   margin-left: 10%;
+   margin-top: 2%;
+   font-size: 25px;
+   width: 90%;
+}
+
+#weather-icon{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  margin-left: 40% ;
+  margin-top: -8%;
   
+}
+@media(max-width:600px) {
+  #temperature {
+      font-size: 65px;
+      margin-left: 65%;
+      margin-top: -28%;
+    }
+  #weather-icon {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 50%;
+    margin-top: 12%;
+  }
+  #description {
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 25px;
+    margin-top: 12%;
+  }
 }
