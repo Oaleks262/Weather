@@ -47,16 +47,16 @@ body{
 }
 @media(max-width:600px) {
   #temperature {
-      font-size: 65px;
-      margin-left: 65%;
-      margin-top: -28%;
+    font-size: 45px;
+    margin-left: 63%;
+    margin-top: -24%;
     }
   #weather-icon {
-    position: absolute;
+    position: relative;
     width: 70px;
     height: 70px;
-    margin-left: 50%;
-    margin-top: 12%;
+    margin: 5% 0 0 10%;
+
   }
   #description {
     margin: auto;
