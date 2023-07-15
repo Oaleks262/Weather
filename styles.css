@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+#weather-widget{
+  margin: 15% auto;
+  height: 180px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient( 35deg, rgb(20, 58, 11), rgb(38, 123, 16), rgb(58, 228, 24));
+  border-radius: 12px;
+  box-shadow: 0 1px 1px 5px rgb(38, 136, 16);
+  border: 1px solid rgb(38, 123, 16);
+}
+#city-name{
+  
+}
